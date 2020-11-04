@@ -9,10 +9,10 @@ Examples:
 * If in.txt contains -7 21 -4 25 24 -5 25 2, the program must print out 4. The set with the smallest subset sum by absolute value is {-7, 21 -4, -5}.
 
 Your program has to:
-(a) Implement a linked list.
-(b) Read the integers from the file in.txt and store them into the linked list in the same order in which they appear in the input file. No calculations are allowed at this step; the program must only read the input numbers and store them into the linked list.
-(c) Work on the linked list in order to find the smallest by absolute value subset sum. All computations must be done in place on the original linked list. 
-(d) Print the smallest by absolute value subset sum.
-(e) The linked list is immutable and your program should not modify it, i.e., it should remain in its original form as it was read from the input file in.txt.
+1. Implement a linked list.
+2. Read the integers from the file in.txt and store them into the linked list in the same order in which they appear in the input file. No calculations are allowed at this step; the program must only read the input numbers and store them into the linked list.
+3. Work on the linked list in order to find the smallest by absolute value subset sum. All computations must be done in place on the original linked list.
+4. Print the smallest by absolute value subset sum.
+5. The linked list is immutable and your program should not modify it, i.e., it should remain in its original form as it was read from the input file in.txt.
 
 The problem must be solved by working on the linked list. For example, bypassing the homework restrictions by saving the numbers in a string, array, or any other date structure (with the exception of the linked list) is not allowed and will be penalized. There must be only one instance of the list and it must not be changed, i.e., after you have read the numbers from in.txt and have stored them in the list (in their original order) no further changes of the list are allowed.
