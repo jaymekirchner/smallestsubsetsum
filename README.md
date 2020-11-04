@@ -1,4 +1,4 @@
-# smallestsubsetsum
+# Smallest Subset Sum Problem - O(2^n)
 
 Write a program called Smallest in Java that reads a text file, in.txt, that contains a list of positive and negative integers (duplicate are possible) separated by spaces and/or line breaks. Zero is not included. After reading the integers, the program saves them in a singly linked list in the same order in which they appear in the input file. Then, without changing the linked list, the program prints out the smallest by absolute value subset sum. Assume that in.txt is in the same folder as your java files and that it contains at least one integer.
 
